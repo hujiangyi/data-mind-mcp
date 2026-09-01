@@ -2,7 +2,7 @@
 
 DataMind MCP 是面向 AI 客户端的开源 MCP 客户端、Skill 和安装工具。
 它把已经部署好的 DataMind Go 服务接入 Claude Desktop、Claude Code、
-Cursor、VS Code、OpenCode 或 Continue，让 AI 在服务器权限控制下查询业务数据。
+Codex、Cursor、VS Code、OpenCode ，让 AI 在服务器权限控制下查询业务数据。
 
 本仓库只负责客户端侧能力：
 
@@ -47,10 +47,10 @@ bash install/install.sh \
 ```text
 claude-desktop
 claude-code
+codex
 cursor
 vscode
 opencode
-continue
 ```
 
 安装脚本会下载对应版本的 MCP Release，写入客户端配置，并在支持的客户端
@@ -82,20 +82,6 @@ datamind_query
 管理员凭据可以额外使用数据源身份管理能力。客户端显示工具只是第一层
 控制，Go 服务端仍会对每个请求执行权限校验。普通用户即使手动构造管理员
 工具请求，也不能获得管理员权限。
-
-## 三类凭据不能混用
-
-MCP 客户端只使用 Go 服务凭据：
-
-```text
-DATAMIND_API_BASE
-DATAMIND_CREDENTIAL
-DATAMIND_MASTER_KEY
-```
-
-DataMind Cloud API Key 属于 Go 服务到 Cloud 的服务端凭据，不能写入 MCP
-客户端配置。Agnes API Key 属于 Cloud 服务内部资源池，不能放入公开仓库、
-安装邮件或普通用户环境变量。
 
 ## 本地开发
 

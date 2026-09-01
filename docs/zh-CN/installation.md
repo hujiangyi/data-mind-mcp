@@ -17,7 +17,7 @@ DATAMIND_MASTER_KEY
 已有私有化部署可以由管理员签发 MCP 凭据对。
 
 普通用户不需要安装 Go、Docker、Nginx，也不需要取得 DataMind Cloud
-API Key 或 Agnes API Key。
+API Key。
 
 ## 客户端安装
 

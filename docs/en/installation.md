@@ -19,8 +19,7 @@ DATAMIND_MASTER_KEY
 For an existing private deployment, an administrator can issue the MCP
 credential pair.
 
-Normal users do not need Go, Docker, Nginx, a DataMind Cloud API key, or an
-Agnes API key.
+Normal users do not need Go, Docker, Nginx, a DataMind Cloud API key.
 
 ## Install the client
 

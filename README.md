@@ -48,10 +48,10 @@ Supported clients:
 ```text
 claude-desktop
 claude-code
+codex
 cursor
 vscode
 opencode
-continue
 ```
 
 The installer downloads the versioned MCP Release, updates the client
@@ -85,21 +85,6 @@ Administrator credentials can additionally use data-source identity management.
 Tool visibility is only the first control layer. The Go service validates every
 request, so a normal user cannot obtain administrator access by manually
 constructing an administrator tool request.
-
-## Credential boundaries
-
-The MCP client uses only Go service credentials:
-
-```text
-DATAMIND_API_BASE
-DATAMIND_CREDENTIAL
-DATAMIND_MASTER_KEY
-```
-
-The DataMind Cloud API key belongs to the server-to-Cloud connection and must
-not be written to the MCP client configuration. The Agnes API key belongs to
-the internal Cloud provider pool and must never be placed in this public
-repository, an installation email, or a normal user's environment.
 
 ## Local development
 

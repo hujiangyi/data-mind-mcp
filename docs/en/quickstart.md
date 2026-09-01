@@ -9,8 +9,6 @@
    `install/install.ps1`.
 4. Restart the selected MCP client.
 5. Verify the MCP tool list.
-6. Configure a cloud API key in the Go service only when cloud AI features
-   are needed.
 
 For a standalone protocol check:
 

@@ -6,7 +6,6 @@
 3. 使用 `install/install.sh` 或 `install/install.ps1` 安装 MCP 客户端。
 4. 重启对应 MCP 客户端。
 5. 检查 MCP 工具列表。
-6. 只有需要云端 AI 能力时，才在 Go 服务侧配置云端 API Key。
 
 单独检查 MCP 协议：
 
