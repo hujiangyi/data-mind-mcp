@@ -90,6 +90,6 @@ bash install/uninstall.sh --tool claude-desktop
 ## 相关说明
 
 - [快速开始](quickstart.md)
-- [协议边界](protocol.md)
 - [Release 镜像](release-mirrors.md)
 - [故障排查](troubleshooting.md)
+- [服务端授权与协议说明](https://github.com/hujiangyi/data-mind-server/tree/main/docs/zh-CN)

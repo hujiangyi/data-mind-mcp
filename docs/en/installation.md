@@ -96,6 +96,6 @@ data from the DataMind Go service.
 ## Related documentation
 
 - [Quickstart](quickstart.md)
-- [Protocol boundaries](protocol.md)
 - [Release mirrors](release-mirrors.md)
 - [Troubleshooting](troubleshooting.md)
+- [Server API key and protocol documentation](https://github.com/hujiangyi/data-mind-server/tree/main/docs/en)
