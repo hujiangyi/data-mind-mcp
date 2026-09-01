@@ -20,7 +20,11 @@ profile, membership status, quota, and queue class.
 
 ## MCP installation email was not received
 
-Check the Go service response for `emailDelivery`. A value of `sent` means the
-Cloud service accepted the message; `failed` or `not_configured` requires the
-Go service operator to check the Cloud Node logs and its Resend environment.
-Do not copy MCP credentials into public issue reports or chat messages.
+First verify that the mailbox address was entered correctly, can currently
+receive mail, and has been checked for spam, promotions, quarantine, and
+enterprise mail-gateway filtering. Mail providers apply different filtering
+rules, so retrying with another real and reachable mailbox is recommended.
+
+If several valid mailboxes fail to receive the message, contact the Go service
+operator with the registration time and a masked mailbox address. Do not copy
+MCP credentials into public issue reports or chat messages.
