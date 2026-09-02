@@ -11,8 +11,8 @@ This repository contains the client-side experience:
 - MCP protocol, configuration, and troubleshooting documentation.
 
 The Go service, Vue administration UI, data-source configuration, Cloud API
-keys, and Agnes API keys are not included here. Server distributions and
-deployment guides are published in `hujiangyi/data-mind-server`.
+keys, and internal Cloud service credentials are not included here. Server
+distributions and deployment guides are published in `hujiangyi/data-mind-server`.
 
 ## Start in five minutes
 

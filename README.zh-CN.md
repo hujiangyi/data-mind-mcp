@@ -11,7 +11,7 @@ Codex、Cursor、VS Code、OpenCode ，让 AI 在服务器权限控制下查询�
 - macOS、Linux、Windows 客户端安装脚本；
 - MCP 协议、配置和故障排查文档。
 
-Go 服务、Vue 管理页面、数据源配置、Cloud API Key 和 Agnes API Key
+Go 服务、Vue 管理页面、数据源配置、Cloud API Key 和内部 Cloud 服务凭据
 不在本仓库中。服务端发行版和部署文档请查看
 `hujiangyi/data-mind-server`。
 

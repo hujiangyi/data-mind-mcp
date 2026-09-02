@@ -21,6 +21,6 @@ test: cover administrator scope filtering
 - Explain the behavior change and security impact.
 - Add or update tests for protocol and permission changes.
 - Do not include credentials, private architecture documents, customer data,
-  provider keys, or generated release archives.
+  Cloud service credentials, or generated release archives.
 - Run `npm ci`, `npm test`, and `npm run build` in
   `packages/datamind-mcp`.
