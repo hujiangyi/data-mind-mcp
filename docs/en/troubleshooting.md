@@ -6,6 +6,14 @@ Check that `DATAMIND_CREDENTIAL`, `DATAMIND_MASTER_KEY`, and
 `DATAMIND_API_BASE` are all present. The pair must belong to the same Go
 service and must not be mixed between users.
 
+## First sign-in password change is required
+
+If the setup page reports that the account still needs a password change, sign
+in to the DataMind Go website first. A fresh administrator uses the temporary
+password `123456`; administrator-created or reset accounts use the same value.
+Self-registered accounts must also complete the password-change page. Set a
+formal password of 8 to 16 characters, then reopen the setup link.
+
 ## Query tools are missing
 
 The MCP client filters tools by credential scopes. Check the scopes issued by

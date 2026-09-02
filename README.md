@@ -31,6 +31,16 @@ Normal users can register through the DataMind Go service. The installation
 parameters are sent to the registered mailbox. Administrators can also issue
 MCP credentials for users.
 
+Every newly created account must complete its first-sign-in password change
+before MCP can be used. On a fresh DataMind Server installation, the
+administrator signs in as `admin` with the temporary initial password `123456`
+and changes it to a formal password of 8 to 16 characters. Accounts created or
+reset by an administrator use the same temporary password. Self-registered
+users choose an initial password during registration, but they must also
+replace it at first sign-in. If the configuration page says the account still
+needs a password change, sign in to the Go service, finish the change, and
+open the installation link again.
+
 ### 2. Install the MCP client
 
 Replace the placeholders with the values from the email:

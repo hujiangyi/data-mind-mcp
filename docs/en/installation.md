@@ -21,6 +21,21 @@ credential pair.
 
 Normal users do not need Go, Docker, Nginx, a DataMind Cloud API key.
 
+## First sign-in password change
+
+MCP setup is available only after the related Go account completes its first
+sign-in password change.
+
+- A fresh server uses `admin` with temporary password `123456`;
+- administrator-created or administrator-reset accounts also use `123456`;
+- self-registered accounts choose an initial password, but must replace it at
+  first sign-in;
+- the formal password must be 8 to 16 characters.
+
+The setup page does not expose usable MCP configuration while this state is
+pending. Sign in to the DataMind Go website, complete the password change, and
+then reopen the installation email or setup link.
+
 ## Install the client
 
 The installer requires four values:

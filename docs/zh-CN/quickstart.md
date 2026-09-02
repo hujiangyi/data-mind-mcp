@@ -1,11 +1,12 @@
 # 快速开始
 
-1. 在 DataMind Go 网页中使用真实邮箱注册，或者在已有私有化部署中从
-   Go 服务管理员处取得 MCP 凭据对。
-2. 启用邮件发送时，从注册邮箱中取得 MCP 安装参数。
-3. 使用 `install/install.sh` 或 `install/install.ps1` 安装 MCP 客户端。
-4. 重启对应 MCP 客户端。
-5. 检查 MCP 工具列表。
+1. 在 DataMind Go 网页使用真实邮箱注册，或者从 Go 服务管理员处取得账号。
+2. 登录 Go 服务并完成首次改密。全新管理员使用 `admin` / `123456`，
+   管理员创建的账号也使用该临时密码。
+3. 启用邮件发送时，从注册邮箱中取得 MCP 安装参数。
+4. 使用 `install/install.sh` 或 `install/install.ps1` 安装 MCP 客户端。
+5. 重启对应 MCP 客户端。
+6. 检查 MCP 工具列表。
 
 单独检查 MCP 协议：
 
